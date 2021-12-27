@@ -13,7 +13,7 @@ with sqlite.connect("BookInfo.db") as conn:
         CREATE TABLE IF NOT EXISTS author(
             id integer PRIMARY KEY,
             name text,
-            palce_of_birth text
+            place_of_birth text
     );"""
 
     book_table_sql = """
